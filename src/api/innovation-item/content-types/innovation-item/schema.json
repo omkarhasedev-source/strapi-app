@@ -1,0 +1,31 @@
+{
+  "kind": "collectionType",
+  "collectionName": "innovation_items",
+  "info": {
+    "singularName": "innovation-item",
+    "pluralName": "innovation-items",
+    "displayName": "InnovationItem"
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "Client": {
+      "type": "string"
+    },
+    "Description": {
+      "type": "string"
+    },
+    "Image": {
+      "type": "media",
+      "multiple": false,
+      "allowedTypes": [
+        "images",
+        "files",
+        "videos",
+        "audios"
+      ]
+    }
+  }
+}
